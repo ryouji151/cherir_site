@@ -171,6 +171,7 @@
   margin: 0 auto;
   margin-top: 25px;
   position: relative;
+  margin-bottom: 15px;
  }
  .come::before{
   content:"";
@@ -195,6 +196,9 @@
   transform: rotate(140deg);
   transform-origin: left 10%;
 } 
+.temp{
+  color: #292929;
+}
  .sub_img{
   width: 85%;
   height: 208px;
@@ -246,8 +250,24 @@ font-family: 'Shippori Mincho', serif;
    text-align: center;
    color: #555555;
    font-size: 20px;
-   padding-bottom: 10px;
-
+  
+   margin-bottom: -20px;
+ 
+ }
+ 
+ .sub_h{
+  position: relative;
+  font-size: 36px;
+  right: 75px;
+  bottom: 60px;
+  color: rgba(164, 138, 72, 0.1);
+ }
+ .sub_j{
+  position: relative;
+  font-size: 36px;
+  right: 75px;
+  bottom: 83px;
+  color: rgba(164, 138, 72, 0.1);
  }
  .time{
    font-weight: bold;
