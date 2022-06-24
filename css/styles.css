@@ -197,7 +197,10 @@
   transform-origin: left 10%;
 } 
 .temp{
-  color: #292929;
+  color: #0d92c3;
+}
+.temp:hover{
+color: #65acc5;
 }
  .sub_img{
   width: 85%;
