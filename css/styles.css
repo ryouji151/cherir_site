@@ -139,6 +139,12 @@
   li{
     list-style: none;
   }
+  .a_link{
+    color: #292929;
+  }
+  .a_link:hover{
+    color: #65acc5;
+  }
  .top_img{
    width: 100%;
    height: 250px;
@@ -201,6 +207,9 @@
 }
 .temp:hover{
 color: #65acc5;
+}
+.space{
+  letter-spacing: -4px;
 }
  .sub_img{
   width: 85%;
